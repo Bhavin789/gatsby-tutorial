@@ -29,6 +29,16 @@ export default function About() {
     <Container>
       <h1>About CSS Modules</h1>
       <p>CSS Modules are cool</p>
+      <User
+        username="ElNino"
+        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
+        excerpt="I'm ElNino. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      />
+      <User
+        username="Scooby Doo"
+        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
+        excerpt="I'm Scooby Doo, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      />
     </Container>
   )
 }
